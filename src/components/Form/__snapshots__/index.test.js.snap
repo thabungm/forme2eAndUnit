@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders snapshot SHOULD render the form with components 1`] = `
+<Fragment>
+  <form
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <h3>
+      Form Demo
+    </h3>
+    <div
+      className="success"
+    />
+    <FormControl
+      errorMessage="Please select one"
+      label="Choose userId"
+      name="userId"
+      onChange={[Function]}
+      required={true}
+      value=""
+    />
+    <FormTextInput
+      fullWidth={true}
+      label="Enter title"
+      name="title"
+      onChange={[Function]}
+      required={true}
+      value=""
+      variant="outlined"
+    />
+    <FormTextInput
+      fullWidth={true}
+      label="Enter body"
+      name="body"
+      onChange={[Function]}
+      required={true}
+      value=""
+    />
+    <ForwardRef(Button)
+      disabled={false}
+      type="submit"
+      variant="outlined"
+    >
+      Submit
+    </ForwardRef(Button)>
+  </form>
+  <Map />
+</Fragment>
+`;
+
+exports[`When API is loading SHOULD show loading 1`] = `
+<div>
+  Loading
+</div>
+`;
+
+exports[`When form is submitted AND when the fields are NOT filled SHOULD show error 1`] = `
+<Fragment>
+  <form
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <h3>
+      Form Demo
+    </h3>
+    <div
+      className="success"
+    />
+    <FormControl
+      errorMessage="Please select one"
+      label="Choose userId"
+      name="userId"
+      onChange={[Function]}
+      required={true}
+      value=""
+    />
+    <FormTextInput
+      fullWidth={true}
+      label="Enter title"
+      name="title"
+      onChange={[Function]}
+      required={true}
+      value=""
+      variant="outlined"
+    />
+    <FormTextInput
+      fullWidth={true}
+      label="Enter body"
+      name="body"
+      onChange={[Function]}
+      required={true}
+      value=""
+    />
+    <ForwardRef(Button)
+      disabled={false}
+      type="submit"
+      variant="outlined"
+    >
+      Submit
+    </ForwardRef(Button)>
+  </form>
+  <Map />
+</Fragment>
+`;
+
+exports[`When form is submitted AND when the fields are filled SHOULD show error 1`] = `
+<Fragment>
+  <form
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <h3>
+      Form Demo
+    </h3>
+    <div
+      className="success"
+    />
+    <FormControl
+      errorMessage="Please select one"
+      label="Choose userId"
+      name="userId"
+      onChange={[Function]}
+      required={true}
+      value=""
+    />
+    <FormTextInput
+      fullWidth={true}
+      label="Enter title"
+      name="title"
+      onChange={[Function]}
+      required={true}
+      value=""
+      variant="outlined"
+    />
+    <FormTextInput
+      fullWidth={true}
+      label="Enter body"
+      name="body"
+      onChange={[Function]}
+      required={true}
+      value=""
+    />
+    <ForwardRef(Button)
+      disabled={false}
+      type="submit"
+      variant="outlined"
+    >
+      Submit
+    </ForwardRef(Button)>
+  </form>
+  <Map />
+</Fragment>
+`;
