@@ -17,17 +17,12 @@ const Form = () => {
   const { title, body, userId } = formData;
   const [errors, setErrors] = useState({});
   const [success, setSuccess] = useState('');
-  console.log(useQuery);
   const { isLoading, error, data } = useQuery(
     'getUsers',
     async () => await axios.get('https://jsonplaceholder.typicode.com/users')
   );
 
-  const {
-    mutateAsync,
-    isError,
-    isLoading: createLoading,
-  } = useMutation((data) =>
+  const { mutateAsync, isLoading: createLoading } = useMutation((data) =>
     axios.post('https://jsonplaceholder.typicode.com/users', data)
   );
 
